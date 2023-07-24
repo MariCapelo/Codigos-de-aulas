@@ -225,6 +225,6 @@ int main()
     printf("O numero de nos folhas na arvore e: %d\n", qfolhas);
 
     // K) verificar qual a altura da arvore
-    printf("A altura da arvore e: %d", alturaArvore(root));
+    printf("A altura da arvore e: %d", alturaArvore(root)); 
     return 0;
 }
