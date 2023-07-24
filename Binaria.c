@@ -226,13 +226,5 @@ int main()
 
     // K) verificar qual a altura da arvore
     printf("A altura da arvore e: %d", alturaArvore(root));
-
-    // L) Verificar se a árvore é estritamente binária
-        // Percebemos pela struct Node que os nós apenas possuem 3 componentes neles que sao:
-        // - a chave do no (dado)
-        // - um ponteiro para o filho esquedor do no
-        // - e um ponteiro para o filho direito do no
-        // Assim como existe apenas dois ponteiros para cada um dos filho do no criado,
-        // a arvore é estritamente binaria
     return 0;
 }
